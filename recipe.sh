@@ -422,3 +422,5 @@ useradd -m shirshak
 wwsh file resync passwd shadow group
 sleep 2
 pdsh -w c[1-4] /warewulf/bin/wwgetfiles 
+
+su - shirshak
