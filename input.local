@@ -69,16 +69,22 @@ c_name[2]=c3
 c_name[3]=c4
 
 # compute node IP addresses
-c_ip[0]=192.168.1.10
-c_ip[1]=192.168.1.11
-c_ip[2]=192.168.1.12
-c_ip[3]=192.168.1.13
+c_ip[0]=192.168.10.2
+c_ip[1]=192.168.10.3
+c_ip[2]=192.168.10.4
+c_ip[3]=192.168.10.5
+c_ip[4]=192.168.10.6
+c_ip[5]=192.168.10.7
+c_ip[6]=192.168.10.8
 
 # compute node MAC addreses for provisioning interface
-c_mac[0]=00:1a:2b:3c:4f:56
-c_mac[1]=00:1a:2b:3c:4f:57
-c_mac[2]=00:1a:2b:3c:4f:58
-c_mac[3]=00:1a:2b:3c:4f:59
+c_mac[0]=00:25:90:4B:2C:75
+c_mac[1]=00:25:90:4B:1F:91
+c_mac[2]=00:25:90:4B:2C:A9
+c_mac[3]=00:25:90:4B:15:AD
+c_mac[4]=00:25:90:4A:C4:63
+c_mac[5]=00:25:90:4B:15:B5
+c_mac[6]=00:25:90:4B:15:C4
 
 # compute node BMC addresses
 c_bmc[0]=10.16.1.1
