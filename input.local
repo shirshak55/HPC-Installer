@@ -22,7 +22,7 @@ sms_eth_internal="${sms_eth_internal:-enp0s3}"
 internal_netmask="${internal_netmask:-255.255.255.0}"
 
 # Provisioning interface used by compute hosts
-eth_provision="${eth_provision:-enp0s8}"
+eth_provision="${eth_provision:-enp0s3}"
 
 # Local ntp server for time synchronization
 ntp_server="${ntp_server:-0.centos.pool.ntp.org}"
