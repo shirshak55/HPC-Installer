@@ -418,9 +418,9 @@ systemctl enable slurmctld
 systemctl start munge
 systemctl start slurmctld
 pdsh -w c[1-4] systemctl start slurmd
-useradd -m shirshak
+useradd -m test
 wwsh file resync passwd shadow group
 sleep 2
 pdsh -w c[1-4] /warewulf/bin/wwgetfiles 
 
-su - shirshak
+su - test
